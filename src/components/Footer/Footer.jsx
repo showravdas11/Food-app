@@ -40,10 +40,10 @@ const Footer = () => {
             <h5 className="footer__title">Contact</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Location: ZindaBazar, Sylhet-3100, Bangladesh</p>
+                <p>Location: Chattagram, Bangladesh</p>
               </ListGroupItem>
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Phone: 01712345678</span>
+                <span>Phone: 013********</span>
               </ListGroupItem>
 
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
@@ -82,19 +82,14 @@ const Footer = () => {
               </span>
 
               <span>
-                <Link to="">
-                  
-                </Link>
                 <a href="https://github.com/showravdas11">
                 <i class="ri-github-line"></i>
                 </a>
               </span>
-
               <span>
-                {" "}
-                <Link to="https://www.linkedin.com/in/showrav-das/">
-                  <i class="ri-linkedin-line"></i>
-                </Link>{" "}
+                <a href="https://www.linkedin.com/in/showrav-das/">
+                <i class="ri-github-line"></i>
+                </a>
               </span>
             </div>
           </Col>
