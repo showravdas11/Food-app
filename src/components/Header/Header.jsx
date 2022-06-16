@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, NavLink } from "react-router-dom";
 import { Container } from "reactstrap";
@@ -17,6 +17,14 @@ const nav__links = [
   {
     display: "Foods",
     path: "/foods",
+  },
+  {
+    display: "About",
+    path: "/about",
+  },
+  {
+    display: "Our team",
+    path: "/team",
   },
   {
     display: "Cart",
