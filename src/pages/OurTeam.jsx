@@ -152,8 +152,8 @@ const OurTeam = () => {
                 />
               </div>
               <div class="box-desc">
-                <h5></h5>
-                <p>web designer</p>
+                <h5>Pranta Sutradhar</h5>
+                <p>FrontEnd Developer</p>
               </div>
               <ul class="social">
                 <li>
