@@ -152,7 +152,7 @@ const OurTeam = () => {
                 />
               </div>
               <div class="box-desc">
-                <h5>Ak Kona</h5>
+                <h5></h5>
                 <p>web designer</p>
               </div>
               <ul class="social">
