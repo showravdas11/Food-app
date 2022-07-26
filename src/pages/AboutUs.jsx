@@ -1,3 +1,4 @@
+import aboutImg from "../assets/images/chef.gif";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import "../styles/aboutUs.css";
 
@@ -22,6 +23,10 @@ const AboutUs = () => {
           remarkably good pizza doughs – so good, in fact, that customers
           confidently stake their reputations on them.
         </p>
+
+        <div className="about_bg">
+        <img src={aboutImg} alt="" />
+        </div>
       </div>
       <div className="about_bg"></div>
 

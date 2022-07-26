@@ -1,7 +1,7 @@
 // all images imported from images directory
-import product_01_image_01 from "../images/product_01.jpg";
 import product_01_image_02 from "../images/product_01.1.jpg";
 import product_01_image_03 from "../images/product_01.3.jpg";
+import product_01_image_01 from "../images/product_01.jpg";
 
 import product_02_image_01 from "../images/product_2.1.jpg";
 import product_02_image_02 from "../images/product_2.2.jpg";

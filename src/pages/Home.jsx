@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Col, Container, ListGroup, ListGroupItem, Row } from "reactstrap";
 import products from "../assets/fake-data/products.js";
+import heroImg from "../assets/images/banner.gif";
 import foodCategoryImg03 from "../assets/images/bread.png";
+import manImg from "../assets/images/delivery-man.gif";
 import foodCategoryImg01 from "../assets/images/hamburger.png";
-import heroImg from "../assets/images/hero.png";
-import whyImg from "../assets/images/location.png";
+import whyImg from "../assets/images/man-delivery.gif";
 import networkImg from "../assets/images/network.png";
 import foodCategoryImg02 from "../assets/images/pizza.png";
 import featureImg01 from "../assets/images/service-01.png";
@@ -109,6 +110,10 @@ const Home = () => {
                   magni delectus tenetur autem, sint veritatis!
                 </p>
 
+                <div>
+                
+                </div>
+
                 <div className="hero__btns d-flex align-items-center gap-5 mt-4">
                   <button className="order__btn d-flex align-items-center justify-content-between">
                     Order now <i class="ri-arrow-right-s-line"></i>
@@ -167,6 +172,8 @@ const Home = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Aperiam, eius.{" "}
               </p>
+
+              <div><img src={manImg} alt=""/></div>
             </Col>
 
             {featureData.map((item, index) => (
